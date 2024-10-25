@@ -1,10 +1,14 @@
 #include <stdio.h>
+
 int main(){
-   char ch = 'M';
+   char ch = 'v';
+
    if(ch >= 'a' && ch <= 'z'){
-      printf("%c is lower than case\n", ch);
-   }else if(ch >= 'A' && ch <= 'Z'){
-      printf("%c is upper case\n", ch);
+      printf("%c is lower case\n",ch);
+   }
+   else if (ch >= 'A' && ch <= 'Z')
+   {
+      printf("%c is upper case\n",ch);
    }
 
    return 0;
